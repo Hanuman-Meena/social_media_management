@@ -14,7 +14,7 @@ public class HomeController {
 	@ResponseBody
 	public String home() {
 		
-		return "Hello World! This is woro Social Medial Management Tool Application!";
+		return "This is woro Social Medial Management Tool Application!";
 	}
 	
 	@GetMapping("/welcome/{name}")
