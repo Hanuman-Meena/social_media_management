@@ -15,4 +15,10 @@ public class HomeController {
 		
 		return "Hello World! This is woro media application!";
 	}
+	
+	@GetMapping("/welcome")
+	@ResponseBody
+	public String welcome() {
+		return "Welcome to woro media!!";
+	}
 }
