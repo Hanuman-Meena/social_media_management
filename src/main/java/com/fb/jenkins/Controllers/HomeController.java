@@ -14,7 +14,7 @@ public class HomeController {
 	@ResponseBody
 	public String homeEndPoint() {
 		
-		return "Hello  World!";
+		return "Hello  World! Welcome to Woro Media!";
 	}
 	
 	@GetMapping("/home")
