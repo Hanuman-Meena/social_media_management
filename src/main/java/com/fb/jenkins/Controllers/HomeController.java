@@ -21,7 +21,7 @@ public class HomeController {
 	@ResponseBody
 	public String home() {
 		
-		return "This is Woro Social Medial Management Tool Application to manage your social media accounts at one place!";
+		return "This is Woro Social Medial Management Application to manage your all social media accounts at one place!";
 	}
 	
 	@GetMapping("/welcome/{name}")
