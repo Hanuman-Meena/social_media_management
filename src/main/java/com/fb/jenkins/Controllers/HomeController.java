@@ -20,6 +20,6 @@ public class HomeController {
 	@GetMapping("/welcome/{name}")
 	@ResponseBody
 	public String welcome(@PathVariable("name")String name) {
-		return "Hi "+ name + "! Welcome to woro media!!";
+		return "Hi "+ name + "! Welcome to woro media family!!";
 	}
 }
