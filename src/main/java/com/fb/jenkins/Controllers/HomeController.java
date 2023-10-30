@@ -14,7 +14,7 @@ public class HomeController {
 	@ResponseBody
 	public String homeEndPoint() {
 		
-		return "Hi! Welcome to Woro Media!";
+		return "Hi! Welcome to Woro Social Media Management Application!";
 	}
 	
 	@GetMapping("/home")
@@ -27,6 +27,6 @@ public class HomeController {
 	@GetMapping("/welcome/{name}")
 	@ResponseBody
 	public String welcome(@PathVariable("name")String name) {
-		return "Hi "+ name + "! Welcome to woro media family!!";
+		return "Hi! "+ name + "! Welcome to woro media family!!";
 	}
 }
